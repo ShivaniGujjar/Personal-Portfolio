@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(4, 4, 40);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(8, 8, 90);
+    font-size: 1.2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+
+    
+}
+
+.first > div{
+    width: 30%;
+}
+
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple{
+    color: rgb(144, 96, 189);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(135, 135, 234);
+}
+
+#element{
+    color: rgb(144, 96, 189);
+}
